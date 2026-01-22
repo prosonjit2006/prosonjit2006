@@ -57,6 +57,16 @@ Operating Sys : Windows
     <!-- sqlite, safari, google-chrome are other good icon options -->
 </div>
 
+<picture>
+  <source media="(prefers-color-scheme: light)" 
+          srcset="https://raw.githubusercontent.com/Prosonjit2006/Prosonjit2006/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" 
+          srcset="https://raw.githubusercontent.com/Prosonjit2006/Prosonjit2006/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="github-snake" 
+       src="https://raw.githubusercontent.com/Prosonjit2006/Prosonjit2006/output/github-contribution-grid-snake.svg" />
+</picture>
+
+
 <hr/>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=Prosonjit2006&label=Profile%20views&color=0e75b6&style=flat" alt="Prosonjit2006" /> </p>

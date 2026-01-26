@@ -57,6 +57,7 @@ Operating Sys : Windows
     <!-- sqlite, safari, google-chrome are other good icon options -->
 </div>
 
+<!-- This is image section -->
 <picture>
   <source media="(prefers-color-scheme: light)"
     srcset="https://raw.githubusercontent.com/Prosonjit2006/Prosonjit2006/output/github-contribution-grid-snake.svg" />

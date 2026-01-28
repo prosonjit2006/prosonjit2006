@@ -20,7 +20,7 @@
 ## 💼 Tech Stack
 
 ```text
-Languages     : HTML, CSS, JavaScript
+Languages     : C, HTML, CSS, JavaScript, TypeScript
 Frameworks    : Bootstrap, jQuery
 Tools         : Git, GitHub & VS-Code
 Operating Sys : Windows 

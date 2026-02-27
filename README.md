@@ -84,16 +84,14 @@ Operating Sys : Windows
 
 <details open>
   <summary><h2>🟡 Pacman Contribution Graph</h2></summary>
+
   <br>
+    
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" 
-      srcset="https://raw.githubusercontent.com/prosonjit2006/prosonjit2006/main/output/pacman-contribution-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" 
-      srcset="https://raw.githubusercontent.com/prosonjit2006/prosonjit2006/main/output/pacman-contribution-graph.svg" />
-    <img 
-      src="https://raw.githubusercontent.com/prosonjit2006/prosonjit2006/main/output/pacman-contribution-graph.svg" 
-      alt="Pacman contribution animation" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prosonjit2006/prosonjit2006/output/pacman-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prosonjit2006/prosonjit2006/output/pacman-contribution-graph.svg" />
+    <img src="https://raw.githubusercontent.com/prosonjit2006/prosonjit2006/output/pacman-contribution-graph.svg" alt="Pacman contribution animation" />
   </picture>
   <br/>
   <sub><i>Auto-generated every 12 hours via GitHub Actions.</i></sub>

@@ -82,6 +82,24 @@ Operating Sys : Windows
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=prosonjit2006&theme=react-dark&bg_color=0d1117&color=00F7FF&line=00F7FF&point=FFFFFF&area=true&hide_border=false&border_color=00F7FF" width="95%" />
 </p>
 
+<details open>
+  <summary><h2>🟡 Pacman Contribution Graph</h2></summary>
+  <br>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" 
+      srcset="https://raw.githubusercontent.com/prosonjit2006/prosonjit2006/main/output/pacman-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" 
+      srcset="https://raw.githubusercontent.com/prosonjit2006/prosonjit2006/main/output/pacman-contribution-graph.svg" />
+    <img 
+      src="https://raw.githubusercontent.com/prosonjit2006/prosonjit2006/main/output/pacman-contribution-graph.svg" 
+      alt="Pacman contribution animation" />
+  </picture>
+  <br/>
+  <sub><i>Auto-generated every 12 hours via GitHub Actions.</i></sub>
+</div>
+</details>
+
 
 <hr/>
 

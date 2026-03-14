@@ -94,7 +94,7 @@ Operating Sys : Windows
     <img src="https://raw.githubusercontent.com/prosonjit2006/prosonjit2006/output/pacman-contribution-graph.svg" alt="Pacman contribution animation" />
   </picture>
   <br/>
-  <sub><i>Auto-generated every 12 hours via GitHub Actions.</i></sub>
+  <sub><i>Auto-updated every 12 hours via GitHub Actions.</i></sub>
 </div>
 </details>
 

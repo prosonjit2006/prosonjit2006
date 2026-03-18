@@ -2,14 +2,12 @@ name: Profile 3D Contributions
 
 on:
   schedule:
-    # Runs every day at 11:59 UTC (GMT)
-    - cron: "59 11 * * *"
+    - cron: "0 * * * *"   # every hour
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
 
     steps:
       - name: Checkout repo

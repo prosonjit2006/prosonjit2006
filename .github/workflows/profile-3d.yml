@@ -8,7 +8,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
 
     steps:
       - name: Checkout repo
@@ -16,11 +15,10 @@ jobs:
 
       - name: Generate 3D Contribution Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: prosonjit2006
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          user_name: prosonjit2006
 
-      # 👇 ADD THIS HERE
       - name: Debug files
         run: ls -R
 

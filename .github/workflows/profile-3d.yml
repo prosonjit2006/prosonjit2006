@@ -1,0 +1,30 @@
+name: Profile 3D Contributions
+
+on:
+  schedule:
+    # Runs every day at 11:59 UTC (GMT)
+    - cron: "59 11 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: prosonjit2006
+
+      - name: Commit & Push Changes
+        run: |
+          git config user.name "prosonjit2006"
+          git config user.email "prosonjitdatta2006@gmail.com"
+          git add -A .
+          git commit -m "update 3d contributions" || echo "no changes"
+          git push

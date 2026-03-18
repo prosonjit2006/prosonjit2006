@@ -9,7 +9,7 @@
 <h1 align="center">👋 Hey, I'm <strong>Prosonjit</strong></h1>
 <h3 align="center">~ HTML Frontend Developer</h3>
 
-<div align="center">
+<div align="start">
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Caveat+Brush&size=30&duration=4999&pause=1000&color=BFF74B&width=500&lines=Life+is+not+a+race+%F0%9F%8F%83%E2%80%8D%E2%99%82%EF%B8%8F;So+stop+running+%26+Start+Learning+%F0%9F%A7%91%E2%80%8D%F0%9F%8E%93;Learning+From+Every+Mistakes+%F0%9F%92%AB)](https://git.io/typing-svg)
 
@@ -24,6 +24,7 @@ Languages     : C, HTML, CSS, JavaScript, TypeScript
 Frameworks    : Bootstrap, jQuery
 Tools         : Git, GitHub & VS-Code
 Operating Sys : Windows
+```
 
 ---
 

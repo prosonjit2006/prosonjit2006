@@ -31,8 +31,14 @@ Operating Sys : Windows
 <br><br>
 
 <div align="center"> <img width="400" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=Prosonjit2006&count_private=true&theme=react&border_radius=10"/> </div>
-
  <br>
+ 
+
+| **Trophy** | **Details** |
+|-------------|-------------|
+| **🎉** | [![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=prosonjit2006)](https://github.com/ryo-ma/github-profile-trophy) |
+
+---
 
 <div align="center">  <h2>💼 Let's Connect </h2> </div>
 <div align="center">

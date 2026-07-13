@@ -1,4 +1,10 @@
-<img src="https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e" width="100%" height="450px"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="light.svg">
+  <img src="./svg/dark.svg" alt="Prosonjit Datta — animated profile banner" width="100%">
+</picture>
+
+<!-- <img src="https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e" width="100%" height="450px"/> -->
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="180"/>

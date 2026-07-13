@@ -1,0 +1,81 @@
+<linearGradient id="grad-accent"
+    x1="0%"
+    y1="0%"
+    x2="100%"
+    y2="100%">
+
+    <stop offset="0%" stop-color="#7C3AED">
+        <animate
+            attributeName="stop-color"
+            values="#7C3AED;#22D3EE;#10B981;#7C3AED"
+            dur="10s"
+            repeatCount="indefinite"/>
+    </stop>
+
+    <stop offset="100%" stop-color="#22D3EE">
+        <animate
+            attributeName="stop-color"
+            values="#22D3EE;#10B981;#7C3AED;#22D3EE"
+            dur="10s"
+            repeatCount="indefinite"/>
+    </stop>
+
+</linearGradient>
+
+<radialGradient id="grad-bg-purple">
+
+    <stop offset="0%"
+        stop-color="#7C3AED"
+        stop-opacity=".22"/>
+
+    <stop offset="100%"
+        stop-opacity="0"/>
+
+</radialGradient>
+
+<radialGradient id="grad-bg-blue">
+
+    <stop offset="0%"
+        stop-color="#7C3AED"
+        stop-opacity=".22"/>
+
+    <stop offset="100%"
+        stop-opacity="0"/>
+
+</radialGradient>
+
+<radialGradient id="grad-bg-emerald">
+
+    <stop offset="0%"
+        stop-color="#7C3AED"
+        stop-opacity=".22"/>
+
+    <stop offset="100%"
+        stop-opacity="0"/>
+
+</radialGradient>
+
+<filter id="filter-glow">
+
+    <feGaussianBlur
+
+    />
+
+    <feMerge>
+
+    </feMerge>
+
+</filter>
+
+<filter id="filter-noise">
+
+    <feTurbulence
+
+    />
+
+    <feColorMatrix
+
+    />
+
+</filter>
+

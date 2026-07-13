@@ -425,12 +425,10 @@
       <use xlink:href="#photoFull"/>
     </g>
   </g>
-  <clipPath id="scanClip"><rect x="74" y="78" width="300" height="452" rx="20"/></clipPath>
-  <g clip-path="url(#scanClip)">
-    <rect x="74" y="38" width="300" height="26" fill="url(#accentGrad)" opacity="0.18">
-      <animate attributeName="y" values="38;570" dur="4.5s" begin="3s" repeatCount="indefinite"/>
-    </rect>
-  </g>
+  <rect x="74" y="78" width="300" height="452" rx="20"
+        fill="none" stroke="#22D3EE" stroke-width="1.5" opacity="0.25">
+    <animate attributeName="opacity" values="0.15;0.4;0.15" dur="5s" repeatCount="indefinite"/>
+  </rect>
 
   <!-- caption chip -->
   <rect x="74" y="544" width="300" height="34" rx="10"
@@ -460,60 +458,64 @@
   <!-- greeting -->
   <text x="512" y="130" font-family="JetBrains Mono, monospace" font-size="26" fill="#F8FAFC">
     Hi <tspan>👋</tspan>
+    <animateTransform attributeName="transform" type="rotate"
+      values="0 527 120; 14 527 120; 0 527 120; 0 527 120"
+      keyTimes="0;0.1;0.2;1" dur="4s" repeatCount="indefinite"/>
   </text>
-  <text x="512" y="168" font-family="JetBrains Mono, monospace" font-size="30" font-weight="700" fill="url(#accentGrad)">
+  <text x="512" y="168" font-family="JetBrains Mono, monospace" font-size="30" font-weight="700" fill="url(#accentGrad)" filter="url(#glow)">
     I'm Prosonjit Datta
+    <animate attributeName="opacity" values="1;0.82;1" dur="3.4s" repeatCount="indefinite"/>
   </text>
 
   <!-- blinking cursor next to name -->
-  <rect x="512" y="178" width="12" height="22" fill="#22D3EE">
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  <rect x="505" y="193" width="2" height="20" fill="#22D3EE">
+    <animate attributeName="opacity" values="1;0;1" dur="4s" repeatCount="indefinite"/>
   </rect>
 
     <text x="512" y="210" font-family="JetBrains Mono, monospace" font-size="21" font-weight="600" fill="#22D3EE" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.02;0.10;0.85;1"
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.0139;0.1861;0.2000;1"
         dur="18.0s" begin="0.0s" repeatCount="indefinite"/>
       <tspan>Frontend Engineer</tspan>
     </text>
     <text x="512" y="210" font-family="JetBrains Mono, monospace" font-size="21" font-weight="600" fill="#22D3EE" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.02;0.10;0.85;1"
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.0139;0.1861;0.2000;1"
         dur="18.0s" begin="3.6s" repeatCount="indefinite"/>
       <tspan>Full Stack Developer</tspan>
     </text>
     <text x="512" y="210" font-family="JetBrains Mono, monospace" font-size="21" font-weight="600" fill="#22D3EE" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.02;0.10;0.85;1"
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.0139;0.1861;0.2000;1"
         dur="18.0s" begin="7.2s" repeatCount="indefinite"/>
       <tspan>Open Source Contributor</tspan>
     </text>
     <text x="512" y="210" font-family="JetBrains Mono, monospace" font-size="21" font-weight="600" fill="#22D3EE" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.02;0.10;0.85;1"
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.0139;0.1861;0.2000;1"
         dur="18.0s" begin="10.8s" repeatCount="indefinite"/>
       <tspan>UI Engineer</tspan>
     </text>
     <text x="512" y="210" font-family="JetBrains Mono, monospace" font-size="21" font-weight="600" fill="#22D3EE" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.02;0.10;0.85;1"
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.0139;0.1861;0.2000;1"
         dur="18.0s" begin="14.4s" repeatCount="indefinite"/>
       <tspan>AI Enthusiast</tspan>
     </text>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.60s" fill="freeze"/>
     <text x="512" y="250" font-family="JetBrains Mono, monospace" font-size="14" fill="#22D3EE">Location</text>
-    <text x="622" y="250" font-family="JetBrains Mono, monospace" font-size="14" fill="#94A3B8">India</text>
+    <text x="622" y="250" font-family="JetBrains Mono, monospace" font-size="14" fill="#94A3B8">Gaighata, West Bengal</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.95s" fill="freeze"/>
     <text x="512" y="280" font-family="JetBrains Mono, monospace" font-size="14" fill="#22D3EE">Education</text>
-    <text x="622" y="280" font-family="JetBrains Mono, monospace" font-size="14" fill="#94A3B8">B.Tech, Computer Science</text>
+    <text x="622" y="280" font-family="JetBrains Mono, monospace" font-size="14" fill="#94A3B8">BCA Student</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.30s" fill="freeze"/>
     <text x="512" y="310" font-family="JetBrains Mono, monospace" font-size="14" fill="#22D3EE">Focus</text>
-    <text x="622" y="310" font-family="JetBrains Mono, monospace" font-size="14" fill="#94A3B8">Full-Stack Web &amp; AI Integration</text>
+    <text x="622" y="310" font-family="JetBrains Mono, monospace" font-size="14" fill="#94A3B8">Becoming a Full-Stack Dev with AI Integration</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.65s" fill="freeze"/>
     <text x="512" y="340" font-family="JetBrains Mono, monospace" font-size="14" fill="#22D3EE">Portfolio</text>
-    <text x="622" y="340" font-family="JetBrains Mono, monospace" font-size="14" fill="#94A3B8">your-portfolio-link.dev</text>
+    <text x="622" y="340" font-family="JetBrains Mono, monospace" font-size="14" fill="#94A3B8">Under construction</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.00s" fill="freeze"/>
@@ -572,62 +574,42 @@
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.80s" fill="freeze"/>
-    <rect x="980.2" y="430.0" width="69.6" height="30" rx="15"
+    <rect x="980.2" y="430.0" width="86.8" height="30" rx="15"
           fill="#0B1220" stroke="#22314D" stroke-width="1">
       <animate attributeName="stroke" values="#22314D;#22D3EE;#22314D"
         dur="5s" begin="4.80s" repeatCount="indefinite"/>
     </rect>
-    <text x="1015.0" y="450.0" text-anchor="middle"
-          font-family="JetBrains Mono, monospace" font-size="12.5" fill="#F8FAFC">Python</text>
+    <text x="1023.6" y="450.0" text-anchor="middle"
+          font-family="JetBrains Mono, monospace" font-size="12.5" fill="#F8FAFC">Postgres</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.92s" fill="freeze"/>
-    <rect x="512.0" y="470.0" width="69.6" height="30" rx="15"
+    <rect x="512.0" y="470.0" width="43.8" height="30" rx="15"
           fill="#0B1220" stroke="#22314D" stroke-width="1">
       <animate attributeName="stroke" values="#22314D;#22D3EE;#22314D"
         dur="5s" begin="4.92s" repeatCount="indefinite"/>
     </rect>
-    <text x="546.8" y="490.0" text-anchor="middle"
-          font-family="JetBrains Mono, monospace" font-size="12.5" fill="#F8FAFC">Docker</text>
+    <text x="533.9" y="490.0" text-anchor="middle"
+          font-family="JetBrains Mono, monospace" font-size="12.5" fill="#F8FAFC">Git</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.4s" begin="3.04s" fill="freeze"/>
-    <rect x="593.6" y="470.0" width="86.8" height="30" rx="15"
+    <rect x="567.8" y="470.0" width="59.8" height="30" rx="15"
           fill="#0B1220" stroke="#22314D" stroke-width="1">
       <animate attributeName="stroke" values="#22314D;#22D3EE;#22314D"
         dur="5s" begin="5.04s" repeatCount="indefinite"/>
     </rect>
-    <text x="637.0" y="490.0" text-anchor="middle"
-          font-family="JetBrains Mono, monospace" font-size="12.5" fill="#F8FAFC">Postgres</text>
+    <text x="596.7" y="490.0" text-anchor="middle"
+          font-family="JetBrains Mono, monospace" font-size="12.5" fill="#F8FAFC">GitHub</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.4s" begin="3.16s" fill="freeze"/>
-    <rect x="692.4" y="470.0" width="43.8" height="30" rx="15"
+    <rect x="635.6" y="470.0" width="61.0" height="30" rx="15"
           fill="#0B1220" stroke="#22314D" stroke-width="1">
       <animate attributeName="stroke" values="#22314D;#22D3EE;#22314D"
         dur="5s" begin="5.16s" repeatCount="indefinite"/>
     </rect>
-    <text x="714.3" y="490.0" text-anchor="middle"
-          font-family="JetBrains Mono, monospace" font-size="12.5" fill="#F8FAFC">AWS</text>
-  </g>
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="3.28s" fill="freeze"/>
-    <rect x="748.2" y="470.0" width="43.8" height="30" rx="15"
-          fill="#0B1220" stroke="#22314D" stroke-width="1">
-      <animate attributeName="stroke" values="#22314D;#22D3EE;#22314D"
-        dur="5s" begin="5.28s" repeatCount="indefinite"/>
-    </rect>
-    <text x="770.1" y="490.0" text-anchor="middle"
-          font-family="JetBrains Mono, monospace" font-size="12.5" fill="#F8FAFC">Git</text>
-  </g>
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="3.40s" fill="freeze"/>
-    <rect x="804.0" y="470.0" width="61.0" height="30" rx="15"
-          fill="#0B1220" stroke="#22314D" stroke-width="1">
-      <animate attributeName="stroke" values="#22314D;#22D3EE;#22314D"
-        dur="5s" begin="5.40s" repeatCount="indefinite"/>
-    </rect>
-    <text x="834.5" y="490.0" text-anchor="middle"
+    <text x="666.1" y="490.0" text-anchor="middle"
           font-family="JetBrains Mono, monospace" font-size="12.5" fill="#F8FAFC">Figma</text>
   </g>
   <g opacity="0" filter="url(#glow)">
